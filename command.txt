@@ -1,0 +1,8 @@
+docker build -t ashera-cordova .
+
+
+>docker run -p 6080:80 -v /dev/shm:/dev/shm dorowu/ubuntu-desktop-lxde-vnc
+
+adb connect host.docker.internal:5555 && \
+    adb install /opt/my_app.apk
+
