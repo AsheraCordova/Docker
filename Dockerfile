@@ -6,7 +6,7 @@ RUN sudo apt-get update
 RUN sudo apt-get install -y openjdk-8-jdk
 
 RUN  apt-get install -y zip
-RUN cd /opt && wget https://nodejs.org/dist/v14.21.3/node-v14.21.3-linux-x64.tar.xz && cd /opt && tar xvf /opt/node-v14.21.3-linux-x64.tar.xz && ln -s node-v14.21.3-linux-x64 nodejs
+RUN cd /opt && wget https://nodejs.org/dist/v20.17.0/node-v20.17.0-linux-x64.tar.xz && cd /opt && tar xvf /opt/node-v20.17.0-linux-x64.tar.xz && ln -s node-v20.17.0-linux-x64 nodejs
 ENV NODE_HOME /opt/nodejs
 ENV PATH="/${NODE_HOME}/bin/:${PATH}"
 
@@ -19,7 +19,7 @@ ENV PATH ${GRADLE_HOME}/bin:${PATH}
 RUN apt-get install -y imagemagick
 
 # Install Cordova
-RUN npm install -g cordova@11.0.0
+RUN npm install -g cordova@12.0.0
 
 #RUN apt-get install -y  libwebkit2gtk-4.0-37
 
