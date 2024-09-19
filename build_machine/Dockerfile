@@ -9,6 +9,7 @@ ENV PATH="/usr/lib/jvm/java-1.8-openjdk/bin:$PATH"
 
 # Install Maven
 RUN apk add maven
+RUN apk add apache-ant
 
 # Install Git
 RUN apk add --no-cache git
