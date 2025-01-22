@@ -4,10 +4,10 @@ Docker to run a linux container to test the swt and browser cordova apps. The co
 
 Command to build the image and run the docker container:
 
-**docker-compose down**
+**docker compose down**
 
-**docker-compose build --no-cache**
+**docker compose build --no-cache**
 
-**docker-compose up**
+**docker compose up**
 
 This installs Hello World, Playground, ECommerce App and Trading App in /app folder.
