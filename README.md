@@ -2,7 +2,7 @@
 
 Docker to run a linux container to test the swt and browser cordova apps. The container can build android app but emulator performance is very slow.
 
-Command to build the image and run the docker container:
+Clone the repository and run the below command to run the docker container:
 
 **docker compose down**
 
@@ -11,3 +11,11 @@ Command to build the image and run the docker container:
 **docker compose up**
 
 This installs Hello World, Playground, ECommerce App and Trading App in /app folder.
+
+To run playground app, go to /app/playground and run the following commands:
+
+**cordova prepare**
+
+**npm run start-dev**
+
+**npm run browser** or **npm run swt**
