@@ -34,6 +34,7 @@ RUN git clone https://github.com/AsheraCordova/CordovaAndroidJLib /app/CordovaAn
 RUN git clone https://github.com/AsheraCordova/AndroidXJCoordinatorLayout /app/AndroidXJCoordinatorLayout
 RUN git clone https://github.com/AsheraCordova/AndroidJSnackbar /app/AndroidJSnackbar
 RUN git clone https://github.com/AsheraCordova/AndroidJNavigationView /app/AndroidJNavigationView
+RUN git clone https://github.com/AsheraCordova/AndroidXJCardView /app/AndroidXJCardView
 RUN git clone https://github.com/AsheraCordova/SWTParent /app/SWTParent
 RUN git clone https://github.com/AsheraCordova/SWTCommon /app/SWTCommon
 RUN git clone https://github.com/AsheraCordova/Core /app/Core
@@ -77,6 +78,7 @@ RUN git clone https://github.com/AsheraCordova/iOSParent /app/iOSParent
 RUN git clone https://github.com/AsheraCordova/IndexedDB /app/IndexedDB
 RUN git clone https://github.com/AsheraCordova/cordova-plugin-camera /app/cordova-plugin-camera
 RUN git clone https://github.com/AsheraCordova/AndroidParent /app/AndroidParent
+RUN git clone https://github.com/AsheraCordova/CardView /app/CardView
 
 RUN git clone https://github.com/AsheraCordova/HelloWorld /app/HelloWorld
 RUN git clone https://github.com/AsheraCordova/InteractivePlayGround /app/InteractivePlayGround
